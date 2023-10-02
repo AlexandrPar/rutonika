@@ -1,0 +1,7 @@
+.top-information {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #f6f6f6;
+    color: #737373;
+}

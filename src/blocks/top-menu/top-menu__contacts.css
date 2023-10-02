@@ -1,0 +1,31 @@
+.top-menu__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-menu__contacts_telephone {
+    margin: 0;
+    color: #182c42;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.top-menu__contacts_email {
+    margin: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.back-call {
+    background: none;
+    border: none;
+    color: #0e9dc2;
+    cursor: pointer;
+}
+
+.back-call:hover {
+    color: black;
+}

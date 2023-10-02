@@ -1,0 +1,37 @@
+.information-list {
+    max-width: 1350px;
+    align-self: end;
+    margin: 0 10px 0 85vw;
+    padding: 8px 0 8px 0;
+}
+
+.information-list__ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.information-list:hover {
+    color: black;
+    cursor: pointer;
+
+    .information-list__ul {
+        display: block;
+        position: absolute;
+        width: 170px;
+        padding: 10px;
+        margin: 0;
+        top: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+}
+
+.information {
+    color: #737373;
+    text-decoration: none;
+}
+
+.information:hover {
+    color: black;
+}

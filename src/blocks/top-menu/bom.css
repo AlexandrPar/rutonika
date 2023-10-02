@@ -1,0 +1,13 @@
+.bom {
+    padding: 10px;
+    background: #f6f6f6;
+    margin: 0px;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    color: #0e9dc2;
+    cursor: pointer;
+}
+
+.bom:hover {
+    color: black;
+}

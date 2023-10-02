@@ -1,0 +1,11 @@
+.home {
+    display: block;
+    padding-block: 15px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.home__img {
+    width: 280px;
+    height: 42px;
+}
