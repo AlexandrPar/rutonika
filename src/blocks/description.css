@@ -1,0 +1,30 @@
+.description {
+    margin: 20px 0 0 75px;
+
+}
+
+.description__content {
+    padding-bottom: 15px;
+}
+
+.description__brands {
+    padding-top: 20px;
+    border-top: 1px solid #f6f6f6;
+}
+
+
+.description__full-brands {
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: #72c2ef;
+    color: white;
+    cursor: pointer;
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.description__full-brands:hover {
+    background-color: black;
+}

@@ -1,0 +1,10 @@
+.certificates {
+    max-width: 276px;
+    padding: 20px;
+    margin: 0 75px 0 0;
+}
+
+.certificate__img {
+    width: 276px;
+    height: 390px;
+}

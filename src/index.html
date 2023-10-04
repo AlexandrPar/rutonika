@@ -16,25 +16,24 @@
         <header class="header">
             <div class="top-information">
                 <div class="information-list">
-                    <a class="information">Информация ▾
-                        <ul class="information-list__ul">
-                            <li>
-                                <a href="#" class="information">Экспортные правила</a>
-                            </li>
-                            <li>
-                                <a href="#" class="information">Федеральный закон «О персональных данных»</a>
-                            </li>
-                            <li>
-                                <a href="#" class="information">Директива RoHS</a>
-                            </li>
-                            <li>
-                                <a href="#" class="information">Директива WEEE</a>
-                            </li>
-                            <li>
-                                <a href="#" class="information">Правовая информация</a>
-                            </li>
-                        </ul>
-                    </a>
+                    <p class="information">Информация ▾</p>
+                    <ul class="information-list__ul">
+                        <li>
+                            <a href="#" class="information">Экспортные правила</a>
+                        </li>
+                        <li>
+                            <a href="#" class="information">Федеральный закон «О персональных данных»</a>
+                        </li>
+                        <li>
+                            <a href="#" class="information">Директива RoHS</a>
+                        </li>
+                        <li>
+                            <a href="#" class="information">Директива WEEE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="information">Правовая информация</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="top-menu">
@@ -56,7 +55,7 @@
 
                 </ul>
             </div>
-            <div class="navigation">
+            <nav class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item"><img><a src="<%=require('./images/hamburger_cat.png')%>">Каталог
                             компонентов</a></li>
@@ -64,15 +63,72 @@
                     <li class="navigation__item"><a>Сертификаты</a></li>
                     <li class="navigation__item"><a>Контакты</a></li>
                 </ul>
-            </div>
+            </nav>
         </header>
-        <main>
-
+        <main class="main">
+            <div class="first-page">
+                <div class="certificates">
+                    <h2 class="certificates__title">Наши сертификаты</h2>
+                    <div class="certificates__all-cer">
+                        <img class="certificate__img" src="<%=require('./images/TM.jpg')%>">
+                    </div>
+                </div>
+                <div class="description">
+                    <h1 class="description__title">Поставщик и производитель радиоэлектронных компонентов и систем</h1>
+                    <h2 class="description__subtitle">О компании</h2>
+                    <p class="description__content">Добро пожаловать на сайт компании <b>RUTONICA™</b> Мы - ведущая компания,
+                        специализирующаяся на оптовых продажах микроэлектроники.</p>
+                    <p class="description__content">Наша команда имеет богатый опыт и профессиональные знания, что
+                        позволяет нам точно понимать потребности наших клиентов и предлагать наилучшие решения.</p>
+                    <p class="description__content">Мы также разрабатываем и производим устройства телеметрии,
+                        специально адаптированные для потребностей наших клиентов. Благодаря нашим инновационным
+                        разработкам, наши устройства обеспечивают надежную и точную передачу данных в реальном времени.
+                    </p>
+                    <p class="description__content">Одной из наших ключевых специализаций является производство систем
+                        выпрямительно-зарядных для аккумуляторных батарей на промышленные объекты и электростанции. Наши
+                        системы обеспечивают эффективную и стабильную работу батарей продлевая их срок службы.</p>
+                    <p class="description__content">Мы гордимся нашими качественными продуктами и комплексными
+                        решениями, которые помогают нашим клиентам достичь максимальной эффективности и продуктивности.
+                        Мы всегда стремимся к инновациям и постоянно развиваемся, чтобы быть на шаг впереди в
+                        изменяющемся мире технологий. Если вы ищете надежного партнера для поставок микроэлектроники,
+                        заказа разработки устройств телеметрии или систем выпрямительно-зарядных, обратитесь к нам. Наша
+                        команда экспертов всегда готова помочь вам найти оптимальное решение, которое соответствует
+                        вашим потребностям и бюджету.</p>
+                    <p class="description__content">Мы ценим наших клиентов и стараемся сделать их бизнес успешным.</p>
+                    <p class="description__content">Доверьтесь нам, и мы поможем вам достичь новых высот!</p>
+                    <p class="description__content">С уважением, Команда <b>RUTONICA™</b>.</p>
+                    <div class="description__brand">
+                        <h2 class="description__subtitle">ПОСТАВЛЯЕМ ЭЛЕКТРОННЫЕ КОМПОНЕНТЫ МИРОВЫХ БРЕНДОВ:</h2>
+                        <div class="description__brands"></div>
+                        <button class="description__full-brands">Полный список производителей</button>
+                    </div>
+                </div>
+            </div>
+            <div class="correspondence">
+                <h2 class="correspondence__title">Корреспонденция</h2>
+                <div class="correspondence__cards">
+                    <div class="correspondence__card">
+                        <div class="card-img"></div>
+                        <time class="time-img">27.03.2023</time>
+                        <p class="card-description">RUTONICA™ - авторизованный дистрибьютор Banana Pi на территории Российской Федерации</p>
+                    </div>
+                    <div class="correspondence__card">
+                        <div class="card-img" ></div>
+                        <time class="time-img">14.03.2023</time>
+                        <p class="card-description">Российский производитель ERUSCUS™ выпустил серию телекоммуникационных серверных стоек 19'</p>
+                    </div>
+                    <div class="correspondence__card">
+                        <div class="card-img" ></div>
+                        <time class="time-img">11.09.2022</time>
+                        <p class="card-description">Регистрация товарной марки RUTONICA™</p>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer class="footer">
-            <div class="footer__menu">
-                <div class="contacks">
-                    <h1 class="footer__menu_title">Контакты</h1>
+            <div class="footer__main">
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
                     <ul>
                         <li>
                             <p>г. Москва, вн.тер.г. Муниципальный Округ Рязанский, ул Коновалова, д. 18</p>
@@ -84,8 +140,8 @@
                         <li><a>info@rutonica.ru</a></li>
                     </ul>
                 </div>
-                <div class="main-sections">
-                    <h1 class="footer__menu_title">Главные разделы</h1>
+                <div class="footer__col">
+                    <h3 class="footer__title">Главные разделы</h3>
                     <ul>
                         <li><a>Контакты</a></li>
                         <li><a>Производители</a></li>
@@ -94,8 +150,8 @@
                         <li><a>Служба поддержки</a></li>
                     </ul>
                 </div>
-                <div class="for-user">
-                    <h1 class="footer__menu_title">Пользователю</h1>
+                <div class="footer__col">
+                    <h3 class="footer__title">Пользователю</h3>
                     <ul>
                         <li><a>Войти</a></li>
                         <li><a>Создать учетную запись</a></li>
@@ -103,11 +159,11 @@
                 </div>
                 <img class="icons">
             </div>
-            <p class="warning">Все используемые материалы на сайте, касающиеся технических характеристик, наличия
+            <p class="footer__warning">Все используемые материалы на сайте, касающиеся технических характеристик, наличия
                 на складе и стоимости, несут исключительно информационный
                 характер и ни при каких условиях не являются публичной офертой, определяемой
                 положением Статьи 437 (2) Гражданского кодекса РФ.<a> Правовая информация...</a></p>
-            <p class="label">© 2020 - 2023 RUTONICA™​. Все права защищены.</p>
+            <p class="footer__label">© 2020 - 2023 RUTONICA™​. Все права защищены.</p>
         </footer>
     </div>
 </body>
