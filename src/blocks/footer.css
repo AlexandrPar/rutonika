@@ -1,3 +1,64 @@
 .footer__main {
     display: flex;
+
+}
+
+.footer__col {
+    width: 23.5%;
+    margin: 20px 0 0 75px;
+}
+
+.footer__ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer__sections {
+    width: 23.5%;
+    margin: 20px 0 0 30px;
+}
+
+.footer__login {
+    width: 23.5%;
+    margin: 20px 0 0 30px;
+}
+
+.footer__title {
+    color: #666;
+}
+
+.footer__link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    outline: none;
+    color: #0e9dc2;
+    cursor: pointer;
+    border-bottom: 0;
+}
+
+.footer__link:hover {
+    color: #0c8aaa;
+}
+
+.footer__warning {
+    max-width: 100%;
+    border-top: 1px solid #afafaf;
+    border-bottom: 1px solid #afafaf;
+}
+
+.footer__warning-containing {
+    max-width: 670px;
+    margin: 0 0 0 75px;
+    font-size: 12px;
+    color: #afafaf;
+    padding-block: 15px;
+}
+
+.footer__label {
+    margin: 20px 0 20px 75px;
+    color: #666;
+    font-size: 13px;
 }
