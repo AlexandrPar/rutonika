@@ -62,3 +62,13 @@
     color: #666;
     font-size: 13px;
 }
+
+.footer__icons {
+    display: flex;
+    margin: 0 75px 0 0;
+}
+
+.footer__icon {
+    width: 80px;
+    padding: 10px;
+}

@@ -10,12 +10,13 @@
 
 .correspondence__cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px 75px 0 75px;
     gap: 20px;
 }
 
 .correspondence__card {
+    max-width: 447px;
     display: flex;
     flex-direction: column;
 
