@@ -1,22 +1,22 @@
-.information-list {
+.information {
     max-width: 1350px;
     align-self: end;
     margin: 0 10px 0 85vw;
     padding: 8px 0 8px 0;
 }
 
-.information-list__ul {
+.information__list {
     display: none;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.information-list:hover {
+.information:hover {
     color: black;
     cursor: pointer;
 
-    .information-list__ul {
+    .information__list {
         display: block;
         position: absolute;
         width: 170px;
@@ -27,11 +27,11 @@
     }
 }
 
-.information {
+.information__link {
     color: #737373;
     text-decoration: none;
 }
 
-.information:hover {
+.information__link:hover {
     color: black;
 }

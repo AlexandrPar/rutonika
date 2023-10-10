@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="html, css, javascript">
     <title>RUTONICA™ - Радиоэлектронные компоненты и системы оптом</title>
+
     <meta name="description"
         content="Поставки электронных компонентов для фирм, занимающихся выпуском электронной аппаратуры.">
 </head>
@@ -14,30 +15,32 @@
     <div class="page">
 
         <header class="header">
-            <div class="top-information">
-                <div class="information-list">
-                    <p class="information">Информация ▾</p>
-                    <ul class="information-list__ul">
+            <div class="header__top">
+                <div class="information">
+                    <div class="information__label">Информация ▾</div>
+                    <ul class="information__list">
                         <li>
-                            <a href="#" class="information">Экспортные правила</a>
+                            <a href="#" class="information__link">Экспортные правила</a>
                         </li>
                         <li>
-                            <a href="#" class="information">Федеральный закон «О персональных данных»</a>
+                            <a href="#" class="information__link">Федеральный закон «О персональных данных»</a>
                         </li>
                         <li>
-                            <a href="#" class="information">Директива RoHS</a>
+                            <a href="#" class="information__link">Директива RoHS</a>
                         </li>
                         <li>
-                            <a href="#" class="information">Директива WEEE</a>
+                            <a href="#" class="information__link">Директива WEEE</a>
                         </li>
                         <li>
-                            <a href="#" class="information">Правовая информация</a>
+                            <a href="#" class="information__link">Правовая информация</a>
                         </li>
                     </ul>
                 </div>
             </div>
+            
+            <!-- top-menu -->
             <div class="top-menu">
-                <a class="top-menu__home"><img class="top-menu__home-img" src="<%=require('./images/logo.svg')%>"
+                <a class="top-menu__home"><img class="top-menu__home-img" src="/images/logo.svg"
                         alt="Лого"></a>
                 <form class="top-menu__search">
                     <input type="text" class="top-menu__input" name="search" placeholder="Искать товары">
@@ -49,60 +52,61 @@
                     <button class="back-call">Заказать обратный звонок</button>
                 </div>
                 <button class="bom">Отправить BOM</button>
-                <ul class="login__ul">
+                <ul class="login">
 
                 </ul>
                 <ul class="basket">
 
                 </ul>
             </div>
-            <nav class="top-menu__navigation">
-                <ul class="top-menu__navigation-list">
-                    <li class="top-menu__navigation-item">
-                        <div class="top-menu__navigation-item-BURGER">
-                            <div></div>
-                        </div>
+            <!-- top-menu -->
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <button class="burger"></button>
                         <a>Каталог компонентов</a>
                     </li>
-                    <li class="top-menu__navigation-item"><a>Производители</a></li>
-                    <li class="top-menu__navigation-item"><a>Сертификаты</a></li>
-                    <li class="top-menu__navigation-item"><a>Контакты</a></li>
+                    <li class="nav__item"><a>Производители</a></li>
+                    <li class="nav__item"><a>Сертификаты</a></li>
+                    <li class="nav__item"><a>Контакты</a></li>
                 </ul>
             </nav>
         </header>
         <main class="main">
-            <div class="first-page">
+            <div class="first-page container">
                 <div class="certificates">
                     <h2 class="certificates__title">Наши сертификаты</h2>
                     <div class="certificates__all-cer">
-                        <img class="certificate__img" src="<%=require('./images/TM.jpg')%>">
+                        <img class="certificate__img" src="/images/TM.jpg">
                     </div>
                 </div>
                 <div class="description">
-                    <h1 class="description__title">Поставщик и производитель радиоэлектронных компонентов и систем</h1>
-                    <h2 class="description__subtitle">О компании</h2>
-                    <p class="description__content">Добро пожаловать на сайт компании <b>RUTONICA™</b> Мы - ведущая
+                    <h1>Поставщик и производитель радиоэлектронных компонентов и систем</h1>
+                    <h2>О компании</h2>
+                    
+                    <p>Добро пожаловать на сайт компании <b>RUTONICA™</b> Мы - ведущая
                         компания,
                         специализирующаяся на оптовых продажах микроэлектроники.</p>
-                    <p class="description__content">Наша команда имеет богатый опыт и профессиональные знания, что
+                    <p>Наша команда имеет богатый опыт и профессиональные знания, что
                         позволяет нам точно понимать потребности наших клиентов и предлагать наилучшие решения.</p>
-                    <p class="description__content">Мы также разрабатываем и производим устройства телеметрии,
+                    <p>Мы также разрабатываем и производим устройства телеметрии,
                         специально адаптированные для потребностей наших клиентов. Благодаря нашим инновационным
                         разработкам, наши устройства обеспечивают надежную и точную передачу данных в реальном времени.
                     </p>
-                    <p class="description__content">Одной из наших ключевых специализаций является производство систем
+                    <p>Одной из наших ключевых специализаций является производство систем
                         выпрямительно-зарядных для аккумуляторных батарей на промышленные объекты и электростанции. Наши
                         системы обеспечивают эффективную и стабильную работу батарей продлевая их срок службы.</p>
-                    <p class="description__content">Мы гордимся нашими качественными продуктами и комплексными
+                    <p>Мы гордимся нашими качественными продуктами и комплексными
                         решениями, которые помогают нашим клиентам достичь максимальной эффективности и продуктивности.
                         Мы всегда стремимся к инновациям и постоянно развиваемся, чтобы быть на шаг впереди в
                         изменяющемся мире технологий. Если вы ищете надежного партнера для поставок микроэлектроники,
                         заказа разработки устройств телеметрии или систем выпрямительно-зарядных, обратитесь к нам. Наша
                         команда экспертов всегда готова помочь вам найти оптимальное решение, которое соответствует
                         вашим потребностям и бюджету.</p>
-                    <p class="description__content">Мы ценим наших клиентов и стараемся сделать их бизнес успешным.</p>
-                    <p class="description__content">Доверьтесь нам, и мы поможем вам достичь новых высот!</p>
-                    <p class="description__content">С уважением, Команда <b>RUTONICA™</b>.</p>
+                    <p>Мы ценим наших клиентов и стараемся сделать их бизнес успешным.</p>
+                    <p>Доверьтесь нам, и мы поможем вам достичь новых высот!</p>
+                    <p>С уважением, Команда <b>RUTONICA™</b>.</p>
                     <div class="description__brand">
                         <h2 class="description__subtitle">ПОСТАВЛЯЕМ ЭЛЕКТРОННЫЕ КОМПОНЕНТЫ МИРОВЫХ БРЕНДОВ:</h2>
                         <div class="description__brands"></div>
@@ -113,22 +117,22 @@
             <div class="correspondence">
                 <h2 class="correspondence__title">Корреспонденция</h2>
                 <div class="correspondence__cards">
-                    <div class="correspondence__card">
-                        <div class="card-img"></div>
-                        <time class="time-img">27.03.2023</time>
-                        <p class="card-description">RUTONICA™ - авторизованный дистрибьютор Banana Pi на территории
+                    <div class="card">
+                        <div class="card__img"></div>
+                        <time class="card__time">27.03.2023</time>
+                        <p class="card__description">RUTONICA™ - авторизованный дистрибьютор Banana Pi на территории
                             Российской Федерации</p>
                     </div>
-                    <div class="correspondence__card">
-                        <div class="card-img"></div>
-                        <time class="time-img">14.03.2023</time>
-                        <p class="card-description">Российский производитель ERUSCUS™ выпустил серию
+                    <div class="card">
+                        <div class="card__img"></div>
+                        <time class="card__time">14.03.2023</time>
+                        <p class="card__description">Российский производитель ERUSCUS™ выпустил серию
                             телекоммуникационных серверных стоек 19'</p>
                     </div>
-                    <div class="correspondence__card">
-                        <div class="card-img"></div>
-                        <time class="time-img">11.09.2022</time>
-                        <p class="card-description">Регистрация товарной марки RUTONICA™</p>
+                    <div class="card">
+                        <div class="card__img"></div>
+                        <time class="card__time">11.09.2022</time>
+                        <p class="card__description">Регистрация товарной марки RUTONICA™</p>
                     </div>
                 </div>
             </div>
@@ -166,10 +170,10 @@
                     </ul>
                 </div>
                 <div class="footer__icons">
-                    <img class="footer__icon" src="<%=require('./images/rospatent_logo_footer.svg')%>">
-                    <img class="footer__icon" src="<%=require('./images/eac_logo_footer.svg')%>">
-                    <img class="footer__icon" src="<%=require('./images/logo_iso_footer.svg')%>">
-                    <img class="footer__icon" src="<%=require('./images/logo_rohs_footer.svg')%>">
+                    <img class="footer__icon" src="/images/rospatent_logo_footer.svg">
+                    <img class="footer__icon" src="/images/eac_logo_footer.svg">
+                    <img class="footer__icon" src="/images/logo_iso_footer.svg">
+                    <img class="footer__icon" src="/images/logo_rohs_footer.svg">
                 </div>
             </div>
             <div class="footer__warning">

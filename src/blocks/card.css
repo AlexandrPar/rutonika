@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card__img {
+    aspect-ratio: 1;
+    background-image: url(/images/Banana_Pi_saler.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card__img:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, .1);
+    transition: 150ms;
+}
+
+.card__time {
+    max-width: 75px;
+    color: white;
+    background-color: gray;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.card__description {
+    margin: 30px 0 40px 0;
+}
+
+.card__description:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .correspondence__cards {
+        flex-direction: column;
+    }
+}

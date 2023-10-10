@@ -11,11 +11,13 @@
 .correspondence__cards {
     display: flex;
     justify-content: center;
+    align-content: center;
+    box-sizing: content-box;
     margin: 20px 75px 0 75px;
     gap: 20px;
 }
 
-.correspondence__card {
+/* .correspondence__card {
     max-width: 447px;
     display: flex;
     flex-direction: column;
@@ -26,7 +28,7 @@
 .card-img {
     width: 447px;
     height: 457px;
-    background-image: url(/src/images/Banana_Pi_saler.png);
+    background-image: url(/images/Banana_Pi_saler.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,4 +77,4 @@
     .correspondence__cards {
         flex-direction: column;
     }
-}
+} */

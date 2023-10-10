@@ -1,9 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page.css);
-@import url(../blocks/body.css);
-@import url(../blocks/top-information.css);
-@import url(../blocks/information-list.css);
+@import url(../blocks/main.css);
+@import url(../blocks/information.css);
 @import url(../blocks/top-menu.css);
+@import url(../blocks/nav.css);
 @import url(../blocks/top-menu__contacts.css);
 @import url(../blocks/bom.css);
 @import url(../blocks/login__ul.css);
@@ -12,4 +12,5 @@
 @import url(../blocks/certificates.css);
 @import url(../blocks/description.css);
 @import url(../blocks/correspondence.css);
+@import url(../blocks/card.css);
 @import url(../blocks/footer.css);
